@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/translucent_appbar"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:onClick="ClickMenu"
+        android:src="@drawable/ic_baseline_menu_24" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:fontFamily="@font/merienda"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:text="FRUKTY"
+        android:textColor="#ffffff"
+        android:textFontWeight="25"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_more_vert_24"/>
+
+</LinearLayout>

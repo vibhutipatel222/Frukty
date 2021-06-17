@@ -1,0 +1,17 @@
+org/tensorflow/lite/examples/classification/tflite/ClassifierQuantizedEfficientNet.java
+ org.tensorflow.lite.examples.classification.tflite.ClassifierQuantizedEfficientNet
+org/tensorflow/lite/examples/classification/tflite/ClassifierFloatMobileNet.java
+ org.tensorflow.lite.examples.classification.tflite.ClassifierFloatMobileNet
+org/tensorflow/lite/examples/classification/tflite/BuildConfig.java
+ org.tensorflow.lite.examples.classification.tflite.BuildConfig
+org/tensorflow/lite/examples/classification/tflite/ClassifierQuantizedMobileNet.java
+ org.tensorflow.lite.examples.classification.tflite.ClassifierQuantizedMobileNet
+org/tensorflow/lite/examples/classification/tflite/ClassifierFloatEfficientNet.java
+ org.tensorflow.lite.examples.classification.tflite.ClassifierFloatEfficientNet
+org/tensorflow/lite/examples/classification/tflite/Classifier.java
+ org.tensorflow.lite.examples.classification.tflite.Classifier
+ org.tensorflow.lite.examples.classification.tflite.Classifier$1
+ org.tensorflow.lite.examples.classification.tflite.Classifier$2
+ org.tensorflow.lite.examples.classification.tflite.Classifier$Device
+ org.tensorflow.lite.examples.classification.tflite.Classifier$Model
+ org.tensorflow.lite.examples.classification.tflite.Classifier$Recognition

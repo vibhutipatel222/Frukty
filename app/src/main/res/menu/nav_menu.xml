@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@mipmap/baseline_person_black_24dp"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/display"
+        android:icon="@drawable/ic_baseline_image_24"
+        android:title="Nutrient Summary" />
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_contact_mail_24"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Help"/>
+    <item
+        android:id="@+id/navLogout"
+        android:icon="@mipmap/baseline_login_black_24dp"
+        android:title="Logout" />
+</menu>

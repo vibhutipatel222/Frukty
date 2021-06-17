@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrd"
+    android:orientation="vertical"
+    android:paddingStart="0dp"
+    android:paddingTop="0dp"
+    android:paddingEnd="0dp"
+    tools:context=".summary">
+
+   <include layout="@layout/appbar_layout" />
+
+    <TextView
+        android:id="@+id/myheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="35dp"
+        android:text="Today's Nutrient Summary"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mycals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calories"
+            android:textColor="#E6000000"
+            android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/cals"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:textAlignment="viewEnd"
+             android:textColor="#000000"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="10dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/mycarbss"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Carbohydrates"
+             android:textColor="#E6000000"
+             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/carbss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="10dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/myfibers"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Fiber"
+             android:textColor="#E6000000"
+             android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/fibers"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:textAlignment="viewEnd"
+             android:textColor="#000000"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="10dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/mysugars"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Sugar"
+             android:textColor="#E6000000"
+             android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/sugars"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:textAlignment="viewEnd"
+             android:textColor="#000000"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="10dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/myfats"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Fat"
+             android:textColor="#E6000000"
+             android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/fats"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:textAlignment="viewEnd"
+             android:textColor="#000000"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="10dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/myproteins"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Protein"
+             android:textColor="#E6000000"
+             android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/proteins"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:textAlignment="viewEnd"
+             android:textColor="#000000"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+     </LinearLayout>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_shape2"
+        android:fontFamily="@font/jost"
+        android:letterSpacing="0.2"
+        android:text="SHARE"
+        android:textColor="#ED000000"
+        android:textSize="22sp" />
+</LinearLayout>

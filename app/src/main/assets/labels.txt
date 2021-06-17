@@ -1,0 +1,9 @@
+0 Avocado
+1 Apricot
+2 Apple
+3 Cactus Fruit
+4 Cherry
+5 Cocos
+6 Dates
+7 Kiwi
+8 Guava
